@@ -200,5 +200,5 @@ with open("reed20180705.fmt4", "rb") as f:
 				byte_array, i, arr_length = check_size(23*seg_count, byte_array, arr_length, i, f)
 				i = i + 23*seg_count
 
-		if (count == 20000):
+		if (count == 30000):
 			exit()
